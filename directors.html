@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>🎬 MovieManiac | Directors</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="navbar">
+  <div class="logo">🎬 MovieManiac</div>
+  <nav>
+    <a href="index.html">Movies</a>
+    <a href="actors.html">Actors</a>
+    <a href="directors.html" class="active">Directors</a>
+  </nav>
+</header>
+
+<section class="featured">
+  <h2>🎥 Directors</h2>
+
+  <input
+    type="text"
+    id="directorSearch"
+    placeholder="Search directors..."
+    style="margin-bottom:20px;padding:8px;width:250px;"
+  >
+
+  <div class="actor-grid" id="directorGrid"></div>
+</section>
+
+<footer>
+  <p>Made with ❤️ & AI</p>
+</footer>
+
+<script src="js/directors.js"></script>
+<div id="directorGrid" class="director-grid"></div>
+</body>
+</html>
